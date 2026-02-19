@@ -1,2 +1,7 @@
 .venv/
 .ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.codedoctor
+src/codedoctor/__pycache__/
+tests/__pycache__/
