@@ -9,7 +9,7 @@ description = "Beginner-friendly codebase doctor: lint, format, type-check, secu
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
-authors = [{ name = "Patrick Faint" }]
+authors = [{ name = "Patrick Faint", email = "pattymayo3@icloud.com" }]
 dependencies = []
 
 [project.optional-dependencies]
@@ -36,5 +36,4 @@ target-version = ["py312"]
 [tool.mypy]
 python-version = "3.12"
 warn_return_any = true
-wanr_unused_configs = true
-disallow_untyped_defs = false
+warn_unused_configs = true
