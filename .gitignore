@@ -5,3 +5,5 @@
 .codedoctor
 src/codedoctor/__pycache__/
 tests/__pycache__/
+
+poetry.lock
