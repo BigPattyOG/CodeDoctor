@@ -99,26 +99,26 @@ codedoctor scan [PATH] [--fix] [--skip-tests] [--report-dir DIR] [--no-gitignore
 
 #### Options
 
-- `PATH`  
+- `PATH`
   Repository/folder to scan (default: `.`)
 
-- `--fix`  
+- `--fix`
   Apply safe auto-fixes (Ruff `--fix`) and format with Black.
 
-- `--skip-tests`  
+- `--skip-tests`
   Skip running `pytest`.
 
-- `--report-dir DIR`  
+- `--report-dir DIR`
   Directory (relative to the repo) to store reports. If omitted, uses the value
   from your CodeDoctor config.
 
-- `--no-gitignore`  
+- `--no-gitignore`
   Disable best-effort `.gitignore` handling (useful for debugging).
 
-- `--no-update-check`  
+- `--no-update-check`
   Disable the non-blocking “update available” notice during scans.
 
-- `--assume-defaults`  
+- `--assume-defaults`
   Allow scanning without running `codedoctor setup` (useful for CI).
 
 ---
