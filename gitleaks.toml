@@ -1,0 +1,13 @@
+title = "CodeDoctor gitleaks config"
+
+[allowlist]
+description = "Allowlist for generated/cached directories"
+paths = [
+  '''^\.git/''',
+  '''^\.ruff_cache/''',
+  '''^\.mypy_cache/''',
+  '''^\.pytest_cache/''',
+  '''^dist/''',
+  '''^build/''',
+  '''^\.venv/''',
+]
