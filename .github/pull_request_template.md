@@ -4,5 +4,5 @@
 ## How to test
 <!-- Commands or steps -->
 
-## Checklist - Delete this line
+## Checklist
 - [ ] PR title uses Conventional Commits (feat/fix/docs/chore/ci/etc.)
