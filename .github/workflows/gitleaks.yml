@@ -16,12 +16,15 @@ jobs:
 
     steps:
       - name: Checkout
+        uses: actions/checkout@v4
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Run gitleaks
         uses: gitleaks/gitleaks-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITLEAKS_ENABLE_UPLOAD_ARTIFACT: "false"
           GITLEAKS_ENABLE_SUMMARY: "true"
