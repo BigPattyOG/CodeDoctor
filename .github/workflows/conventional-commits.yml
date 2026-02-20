@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   semantic-pr-title:
+    name: Check Conventional Commits PR Title
     runs-on: ubuntu-latest
     steps:
       - name: Validate PR title follows Conventional Commits
